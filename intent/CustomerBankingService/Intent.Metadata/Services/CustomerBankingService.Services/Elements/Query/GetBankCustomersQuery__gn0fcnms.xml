@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="37d2e8d3-dbb8-4289-8fbe-be5274260e92" type="Query" typeId="e71b0662-e29d-4db2-868b-8a12464b25d0">
+  <name>GetBankCustomersQuery</name>
+  <display>GetBankCustomersQuery: BankCustomerDto[*]</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <typeReference id="d8618fd5-e756-4d89-93ca-1cbdbc5b750b">
+    <typeId>0188bbba-dc97-41b0-84f5-b27083138fa4</typeId>
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>true</isCollection>
+    <isRequired>true</isRequired>
+    <typePackageName>CustomerBankingService.Services</typePackageName>
+    <typePackageId>dc886043-8a56-4d24-8ae2-b3d16c92d007</typePackageId>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
+  <isMapped>false</isMapped>
+  <parentFolderId>7d5132cb-6fb7-4ab8-b5f7-31aca2a04e8b</parentFolderId>
+  <packageId>dc886043-8a56-4d24-8ae2-b3d16c92d007</packageId>
+  <packageName>CustomerBankingService.Services</packageName>
+  <stereotypes />
+  <metadata>
+    <entry key="baseName" value="BankCustomers" />
+  </metadata>
+  <childElements />
+</class>

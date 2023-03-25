@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="ab16e9b6-e194-463a-86f5-c358d1e2962e" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+  <name>Behaviours</name>
+  <display>Behaviours</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>6e5eea9b-d0e5-40b9-b3a8-bc3c7cd3648a</parentFolderId>
+  <packageId>53dc13b7-753c-4ff6-9a97-e89aa8c474a7</packageId>
+  <packageName>CustomerBankAccountManagement</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+      <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+      <properties>
+        <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="48fcb8bb-4a5c-46ca-ba2b-e8daffe77c0b" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.Behaviours.AuthorizationBehaviour</name>
+      <display>Intent.Application.MediatR.Behaviours.AuthorizationBehaviour</display>
+      <externalReference>Intent.Application.MediatR.Behaviours</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>ab16e9b6-e194-463a-86f5-c358d1e2962e</parentFolderId>
+      <packageId>53dc13b7-753c-4ff6-9a97-e89aa8c474a7</packageId>
+      <packageName>CustomerBankAccountManagement</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="5d1c4dd7-d248-4130-b31a-dad68d7fcc3d" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.Behaviours.EventBusPublishBehaviour</name>
+      <display>Intent.Application.MediatR.Behaviours.EventBusPublishBehaviour</display>
+      <externalReference>Intent.Application.MediatR.Behaviours</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>ab16e9b6-e194-463a-86f5-c358d1e2962e</parentFolderId>
+      <packageId>53dc13b7-753c-4ff6-9a97-e89aa8c474a7</packageId>
+      <packageName>CustomerBankAccountManagement</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="a225595f-3002-4e52-990e-b079d6087e66" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.Behaviours.LoggingBehaviour</name>
+      <display>Intent.Application.MediatR.Behaviours.LoggingBehaviour</display>
+      <externalReference>Intent.Application.MediatR.Behaviours</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>ab16e9b6-e194-463a-86f5-c358d1e2962e</parentFolderId>
+      <packageId>53dc13b7-753c-4ff6-9a97-e89aa8c474a7</packageId>
+      <packageName>CustomerBankAccountManagement</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="606e5c2a-2019-461b-b08c-49b14255f924" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.Behaviours.MongoDbUnitOfWorkBehaviour</name>
+      <display>Intent.Application.MediatR.Behaviours.MongoDbUnitOfWorkBehaviour</display>
+      <externalReference>Intent.Application.MediatR.Behaviours</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>ab16e9b6-e194-463a-86f5-c358d1e2962e</parentFolderId>
+      <packageId>53dc13b7-753c-4ff6-9a97-e89aa8c474a7</packageId>
+      <packageName>CustomerBankAccountManagement</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="5a92ad54-37bd-4076-ab1a-66e5a36650a3" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.Behaviours.PerformanceBehaviour</name>
+      <display>Intent.Application.MediatR.Behaviours.PerformanceBehaviour</display>
+      <externalReference>Intent.Application.MediatR.Behaviours</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>ab16e9b6-e194-463a-86f5-c358d1e2962e</parentFolderId>
+      <packageId>53dc13b7-753c-4ff6-9a97-e89aa8c474a7</packageId>
+      <packageName>CustomerBankAccountManagement</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="2872d851-e23b-4a3e-b137-f8ac0b78b15e" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.Behaviours.UnhandledExceptionBehaviour</name>
+      <display>Intent.Application.MediatR.Behaviours.UnhandledExceptionBehaviour</display>
+      <externalReference>Intent.Application.MediatR.Behaviours</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>ab16e9b6-e194-463a-86f5-c358d1e2962e</parentFolderId>
+      <packageId>53dc13b7-753c-4ff6-9a97-e89aa8c474a7</packageId>
+      <packageName>CustomerBankAccountManagement</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="25f70333-99cd-4e54-a0df-83cde09aa028" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.Behaviours.UnitOfWorkBehaviour</name>
+      <display>Intent.Application.MediatR.Behaviours.UnitOfWorkBehaviour</display>
+      <externalReference>Intent.Application.MediatR.Behaviours</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>ab16e9b6-e194-463a-86f5-c358d1e2962e</parentFolderId>
+      <packageId>53dc13b7-753c-4ff6-9a97-e89aa8c474a7</packageId>
+      <packageName>CustomerBankAccountManagement</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="9001faa3-6a90-4948-bb78-6c47850868b8" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.FluentValidation.ValidationBehaviour</name>
+      <display>Intent.Application.MediatR.FluentValidation.ValidationBehaviour</display>
+      <externalReference>Intent.Application.MediatR.FluentValidation</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>ab16e9b6-e194-463a-86f5-c358d1e2962e</parentFolderId>
+      <packageId>53dc13b7-753c-4ff6-9a97-e89aa8c474a7</packageId>
+      <packageName>CustomerBankAccountManagement</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="a89cedb2-0a34-41aa-bcc1-c174d04046f7" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Dapr.AspNetCore.StateManagement.StateRepositoryUnitOfWorkBehaviour</name>
+      <display>Intent.Dapr.AspNetCore.StateManagement.StateRepositoryUnitOfWorkBehaviour</display>
+      <externalReference>Intent.Dapr.AspNetCore.StateManagement</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>ab16e9b6-e194-463a-86f5-c358d1e2962e</parentFolderId>
+      <packageId>53dc13b7-753c-4ff6-9a97-e89aa8c474a7</packageId>
+      <packageName>CustomerBankAccountManagement</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

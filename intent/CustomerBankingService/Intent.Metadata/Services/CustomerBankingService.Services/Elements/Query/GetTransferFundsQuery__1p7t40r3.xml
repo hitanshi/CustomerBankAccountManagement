@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="b66f6318-93d8-4ac1-8590-8b1fd83c5857" type="Query" typeId="e71b0662-e29d-4db2-868b-8a12464b25d0">
+  <name>GetTransferFundsQuery</name>
+  <display>GetTransferFundsQuery: TransferFundDto[*]</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <typeReference id="758b8304-c031-4fc9-880c-f0bc9470f907">
+    <typeId>e2a11eea-1cc4-4703-bb82-d0ade6877a4b</typeId>
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>true</isCollection>
+    <isRequired>true</isRequired>
+    <typePackageName>CustomerBankingService.Services</typePackageName>
+    <typePackageId>dc886043-8a56-4d24-8ae2-b3d16c92d007</typePackageId>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
+  <isMapped>false</isMapped>
+  <parentFolderId>bb9c399d-fc37-4842-a3ab-e82cdb3fde9c</parentFolderId>
+  <packageId>dc886043-8a56-4d24-8ae2-b3d16c92d007</packageId>
+  <packageName>CustomerBankingService.Services</packageName>
+  <stereotypes />
+  <metadata>
+    <entry key="baseName" value="TransferFunds" />
+  </metadata>
+  <childElements />
+</class>

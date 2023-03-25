@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="8c9d6ad0-3d2b-4f73-9a56-ccb3dfdc90c9" type="Solution Folder" typeId="0dc2b846-c968-49eb-99b7-8776919313a8">
+  <name>4 - Infrastructure</name>
+  <display>4 - Infrastructure</display>
+  <externalReference>87a63e86-5551-4e7e-b643-9d248e2fc3b5</externalReference>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>8ddbf61f-ae45-4ec6-a4a8-e7fb573a027b</parentFolderId>
+  <packageId>53dc13b7-753c-4ff6-9a97-e89aa8c474a7</packageId>
+  <packageName>CustomerBankAccountManagement</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

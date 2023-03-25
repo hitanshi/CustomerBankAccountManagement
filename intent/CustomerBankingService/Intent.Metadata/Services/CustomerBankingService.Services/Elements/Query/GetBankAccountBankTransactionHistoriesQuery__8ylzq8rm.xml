@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="7b229381-3c4e-4972-ad43-797c7a4e2ec4" type="Query" typeId="e71b0662-e29d-4db2-868b-8a12464b25d0">
+  <name>GetBankAccountBankTransactionHistoriesQuery</name>
+  <display>GetBankAccountBankTransactionHistoriesQuery: BankAccountBankTransactionHistoryDto[*]</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <typeReference id="42f82b17-c5b4-4175-8bbf-b2c999d99c58">
+    <typeId>44056493-d3e5-4a87-934e-b45bb3e0daf5</typeId>
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>true</isCollection>
+    <isRequired>true</isRequired>
+    <typePackageName>CustomerBankingService.Services</typePackageName>
+    <typePackageId>dc886043-8a56-4d24-8ae2-b3d16c92d007</typePackageId>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
+  <isMapped>false</isMapped>
+  <parentFolderId>a1ae92e3-a90f-45e5-a0c4-521b4250cbf0</parentFolderId>
+  <packageId>dc886043-8a56-4d24-8ae2-b3d16c92d007</packageId>
+  <packageName>CustomerBankingService.Services</packageName>
+  <stereotypes />
+  <metadata>
+    <entry key="baseName" value="BankAccountBankTransactionHistories" />
+  </metadata>
+  <childElements>
+    <childElement id="afb3e63e-5e69-4b3f-87d6-206b46b5cae5" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+      <name>BankAccountId</name>
+      <display>BankAccountId: int</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="c9468647-61bd-4df6-b1ac-dea8319f4441">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>7b229381-3c4e-4972-ad43-797c7a4e2ec4</parentFolderId>
+      <packageId>dc886043-8a56-4d24-8ae2-b3d16c92d007</packageId>
+      <packageName>CustomerBankingService.Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="4b54a612-2664-4493-a1f7-dc0623aa03da" name="Validations">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Application.FluentValidation</definitionPackageName>
+          <definitionPackageId>55856e5d-8217-4c17-8fbb-082ac75baaf5</definitionPackageId>
+          <properties>
+            <property name="d144e1aa-b506-407a-b60b-716ce38b70bb" display="Not Empty" value="false" isActive="true" />
+            <property name="8d844d65-bf88-4023-85e1-4d3d7f8784cd" display="Equal" isActive="true" />
+            <property name="490e08cd-5fb4-4bfd-80cf-fda3b88f745e" display="Not Equal" isActive="true" />
+            <property name="c94dc001-4ec7-42a0-a1e0-5b75502e7bec" display="Min Length" isActive="false" />
+            <property name="cbd52384-0f1e-4f41-9e98-314231b731e1" display="Max Length" isActive="false" />
+            <property name="f9802e6b-b033-4280-ad83-e4b064943d87" display="Min" isActive="true" />
+            <property name="aca206a8-cb7e-4537-b3f5-c5c301863c14" display="Max" isActive="true" />
+            <property name="9023c463-1cce-4f11-baa5-96561697fc7f" display="Predicate" isActive="true" />
+            <property name="13d364d0-975e-47e9-ae0c-a3137326ee60" display="Predicate Message" isActive="false" />
+            <property name="e441d802-9aea-4d74-b5f9-1cd2527f3719" display="Has Custom Validation" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="60b1cc78-7514-4d77-8daa-cc61eca9b186" type="Query" typeId="e71b0662-e29d-4db2-868b-8a12464b25d0">
+  <name>GetBankAccountsQuery</name>
+  <display>GetBankAccountsQuery: BankAccountDto[*]</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <typeReference id="c3a74fee-4a39-47a9-bf6f-3a215f4cc12a">
+    <typeId>18b172d7-1183-4c8c-8be1-bd5d98f450c5</typeId>
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>true</isCollection>
+    <isRequired>true</isRequired>
+    <typePackageName>CustomerBankingService.Services</typePackageName>
+    <typePackageId>dc886043-8a56-4d24-8ae2-b3d16c92d007</typePackageId>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
+  <isMapped>false</isMapped>
+  <parentFolderId>a1ae92e3-a90f-45e5-a0c4-521b4250cbf0</parentFolderId>
+  <packageId>dc886043-8a56-4d24-8ae2-b3d16c92d007</packageId>
+  <packageName>CustomerBankingService.Services</packageName>
+  <stereotypes />
+  <metadata>
+    <entry key="baseName" value="BankAccounts" />
+  </metadata>
+  <childElements />
+</class>

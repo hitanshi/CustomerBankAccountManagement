@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="6ceae3e0-7227-45de-95e9-58779749cc2b" type="Application" typeId="f40a4942-5d2d-4174-8ec1-af66cbd464db">
+  <name>CustomerBankingService</name>
+  <display>CustomerBankingService</display>
+  <externalReference>627bab41-be2f-4891-a765-f396dd3552d7</externalReference>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>36652259-9e71-429f-9d52-4758b89b75b8</parentFolderId>
+  <packageId>36652259-9e71-429f-9d52-4758b89b75b8</packageId>
+  <packageName>CustomerBankingService.Eventing</packageName>
+  <diagram>
+    <targetPackageId>36652259-9e71-429f-9d52-4758b89b75b8</targetPackageId>
+  </diagram>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

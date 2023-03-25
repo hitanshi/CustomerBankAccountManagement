@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="39948c2f-c72d-4205-9891-79a3de5ab227" type="Diagram" typeId="4d66fecd-e9b8-436f-aa50-c59040ad0879">
+  <name>Default Diagram</name>
+  <display>Default Diagram</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>c2d8e671-8ef3-428e-9024-4ca891257fc2</parentFolderId>
+  <packageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</packageId>
+  <packageName>CustomerBankingService.Domain</packageName>
+  <diagram>
+    <targetPackageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</targetPackageId>
+  </diagram>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

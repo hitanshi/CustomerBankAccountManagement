@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="33a2a74b-0aa3-4fc6-8326-c7f41545bcfe" type="Domain Event" typeId="0814e459-fb9b-47db-b7eb-32ce30397e8a">
+  <name>TransferFundStarted</name>
+  <display>TransferFundStarted</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>c2d8e671-8ef3-428e-9024-4ca891257fc2</parentFolderId>
+  <packageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</packageId>
+  <packageName>CustomerBankingService.Domain</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="adee7cfb-52b1-4e31-8524-33dabed2ca6c" type="Property" typeId="b4d69073-5abb-4968-b41b-545b2f7408ed">
+      <name>DebitorAccountNumber</name>
+      <display>DebitorAccountNumber: long</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="64cb297a-9e5b-4aa2-82a2-02442d282558">
+        <typeId>33013006-E404-48C2-AC46-24EF5A5774FD</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>33a2a74b-0aa3-4fc6-8326-c7f41545bcfe</parentFolderId>
+      <packageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</packageId>
+      <packageName>CustomerBankingService.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="afe0a5a2-9029-4e66-bbc5-fd1f241a87b7" type="Property" typeId="b4d69073-5abb-4968-b41b-545b2f7408ed">
+      <name>TransferAmount</name>
+      <display>TransferAmount: decimal</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="96f21b55-c480-4b40-a012-6cd8801ecf9b">
+        <typeId>675c7b84-997a-44e0-82b9-cd724c07c9e6</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>33a2a74b-0aa3-4fc6-8326-c7f41545bcfe</parentFolderId>
+      <packageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</packageId>
+      <packageName>CustomerBankingService.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

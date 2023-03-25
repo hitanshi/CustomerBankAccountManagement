@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="49de235a-b2f1-4c8f-9a14-af76da537e22">
+  <sourceEnd id="be243112-18c5-46f9-98de-82a161958e9a" type="Domain Event Association Source End" typeId="ad8998ec-ee85-4544-9267-8ec150a2f257">
+    <name>TranferFundStarted</name>
+    <display>TranferFundStarted: TransferFundStarted</display>
+    <order>0</order>
+    <typeReference id="68581e61-8473-446d-b815-bac933870966">
+      <typeId>33a2a74b-0aa3-4fc6-8326-c7f41545bcfe</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>CustomerBankingService.Domain</typePackageName>
+      <typePackageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="49de235a-b2f1-4c8f-9a14-af76da537e22" type="Domain Event Association Target End" typeId="fe0d0f78-fb7e-4685-ab2d-bae88054a78e">
+    <name>TransferFund</name>
+    <display>TransferFund: TransferFund</display>
+    <order>2</order>
+    <typeReference id="d4889bb5-c5a6-4918-8932-78d1727e6063">
+      <typeId>0ba4c880-f983-4d53-8f22-ccb9d8fcc1a5</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>CustomerBankingService.Domain</typePackageName>
+      <typePackageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Domain Event Association</associationType>
+  <associationTypeId>8014b71d-627b-4349-b6d7-5011dfa1bb09</associationTypeId>
+  <stereotypes />
+</association>

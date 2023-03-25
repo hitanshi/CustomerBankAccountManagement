@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="539a662e-b739-498d-bf4b-4d86f1ba8268">
+  <sourceEnd id="2a1194b1-64dc-4e2d-a867-fb987beea47b" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>BankAccount</name>
+    <display>BankAccount: BankAccount</display>
+    <order>4</order>
+    <typeReference id="180fbdc7-a54a-4b2f-a33d-5b57c046b585">
+      <typeId>8acbf428-16b5-4865-ab48-c403a5acbe03</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>CustomerBankingService.Domain</typePackageName>
+      <typePackageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="539a662e-b739-498d-bf4b-4d86f1ba8268" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>BankTransactionHistories</name>
+    <display>BankTransactionHistories: BankTransactionHistory[*]</display>
+    <order>6</order>
+    <typeReference id="7826dceb-1fce-49bb-9a63-e41b9a8d27be">
+      <typeId>7057eff3-378a-4e46-ac01-d16eb38e7494</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>CustomerBankingService.Domain</typePackageName>
+      <typePackageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

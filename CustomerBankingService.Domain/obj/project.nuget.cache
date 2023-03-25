@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/bm838DrqwAbFF63ytFInU59gLnb8rG4UxfZQlHq1RfM8S2Jr+I1aMCugGe14MS8lUuqRCm92TxBvIkKI6+FJQ==",
+  "success": true,
+  "projectFilePath": "D:\\CustomerBankMang\\CustomerBankAccountManagement\\CustomerBankingService.Domain\\CustomerBankingService.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hkthakur\\.nuget\\packages\\intent.roslynweaver.attributes\\2.0.1\\intent.roslynweaver.attributes.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

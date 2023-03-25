@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="8acbf428-16b5-4865-ab48-c403a5acbe03" type="Class" typeId="04e12b51-ed12-42a3-9667-a6aa81bb6d10">
+  <name>BankAccount</name>
+  <display>BankAccount</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>c2d8e671-8ef3-428e-9024-4ca891257fc2</parentFolderId>
+  <packageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</packageId>
+  <packageName>CustomerBankingService.Domain</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="91c6b681-7e31-4023-8a83-f053773e907a" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>Id</name>
+      <display>Id: int</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="67e8122f-2c03-451d-974f-1d8f86dcbd52">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>8acbf428-16b5-4865-ab48-c403a5acbe03</parentFolderId>
+      <packageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</packageId>
+      <packageName>CustomerBankingService.Domain</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b99aac21-9ca4-467f-a3a6-046255a9eed6" name="Primary Key">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+          <properties>
+            <property name="4c1e3f7e-61d4-460d-bd20-c2edbc0c0e2e" display="Identity" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata>
+        <entry key="is-managed-key" value="true" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="032e87fb-7211-4dc1-a5f0-d82bdf6c65c0" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>CustomerId</name>
+      <display>CustomerId: int</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="00685f17-2c6a-4565-ba78-f10186eac88c">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>8acbf428-16b5-4865-ab48-c403a5acbe03</parentFolderId>
+      <packageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</packageId>
+      <packageName>CustomerBankingService.Domain</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="793a5128-57a1-440b-a206-af5722b752a6" name="Foreign Key">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+          <properties>
+            <property name="42e4f9b5-f834-4e5f-86aa-d3a35c505076" display="Association" value="cc5ef470-04a8-4eef-bca1-e85b9002e960" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata>
+        <entry key="fk-original-name" value="CustomerId" />
+        <entry key="association" value="cc5ef470-04a8-4eef-bca1-e85b9002e960" />
+        <entry key="is-managed-key" value="true" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="0705896e-076f-4e6e-b107-677bf71ac5d7" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>BankAccountTypeId</name>
+      <display>BankAccountTypeId: int</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="0a567857-525f-4f27-8ecb-742850d34a90">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>8acbf428-16b5-4865-ab48-c403a5acbe03</parentFolderId>
+      <packageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</packageId>
+      <packageName>CustomerBankingService.Domain</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="793a5128-57a1-440b-a206-af5722b752a6" name="Foreign Key">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+          <properties>
+            <property name="42e4f9b5-f834-4e5f-86aa-d3a35c505076" display="Association" value="dca7de5d-e7a8-4a7a-b659-b21214b18d2b" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata>
+        <entry key="fk-original-name" value="BankAccountTypeId" />
+        <entry key="association" value="dca7de5d-e7a8-4a7a-b659-b21214b18d2b" />
+        <entry key="is-managed-key" value="true" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="18d9a6ee-2c9e-427d-885b-a6b8970d140b" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>CurrentBalance</name>
+      <display>CurrentBalance: decimal</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="1ceb9fef-ae3e-4e44-a78e-80f4f1260de0">
+        <typeId>675c7b84-997a-44e0-82b9-cd724c07c9e6</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>8acbf428-16b5-4865-ab48-c403a5acbe03</parentFolderId>
+      <packageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</packageId>
+      <packageName>CustomerBankingService.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

@@ -1,0 +1,74 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Solution Items", "0 - Solution Items", "{EBDECBEE-F926-40D1-B12A-17B367039E16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dapr", "dapr", "{5306448E-D8B2-432D-8C5E-32BE4BE70619}"
+	ProjectSection(SolutionItems) = preProject
+		dapr\config.yaml = dapr\config.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{8C6523D2-E21F-48DA-94C5-9A89229356DD}"
+	ProjectSection(SolutionItems) = preProject
+		dapr\components\pubsub.yaml = dapr\components\pubsub.yaml
+		dapr\components\statestore.yaml = dapr\components\statestore.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerBankingService", "CustomerBankingService", "{8DDBF61F-AE45-4EC6-A4A8-E7FB573A027B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Api", "1 - Api", "{C78206C9-4C8D-49E3-B114-1C4D5F5662B5}"
+EndProject
+Project("{FFD54A85-9362-48AC-B646-C93AB9AC63D2}") = "CustomerBankingService.Api", "CustomerBankingService.Api\CustomerBankingService.Api.csproj", "{2A39A877-BE7A-4975-A8A4-C072D6219494}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{C24449A6-A37E-4345-A4E5-4582F9B50C0E}"
+EndProject
+Project("{52B49DB5-3EA9-4095-B1A7-DF1AC22D7DAE}") = "CustomerBankingService.Application", "CustomerBankingService.Application\CustomerBankingService.Application.csproj", "{51C46108-61BA-434A-85D2-F1BF00CBAA2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{894B4CCE-2369-40FD-BEBD-1D92E95CB976}"
+EndProject
+Project("{52B49DB5-3EA9-4095-B1A7-DF1AC22D7DAE}") = "CustomerBankingService.Domain", "CustomerBankingService.Domain\CustomerBankingService.Domain.csproj", "{5FA63F6D-9931-4286-BFC3-A12B545602BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{8C9D6AD0-3D2B-4F73-9A56-CCB3DFDC90C9}"
+EndProject
+Project("{52B49DB5-3EA9-4095-B1A7-DF1AC22D7DAE}") = "CustomerBankingService.Infrastructure", "CustomerBankingService.Infrastructure\CustomerBankingService.Infrastructure.csproj", "{CDA85600-B24B-4632-882C-43027FD8A373}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A39A877-BE7A-4975-A8A4-C072D6219494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A39A877-BE7A-4975-A8A4-C072D6219494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A39A877-BE7A-4975-A8A4-C072D6219494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A39A877-BE7A-4975-A8A4-C072D6219494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C46108-61BA-434A-85D2-F1BF00CBAA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C46108-61BA-434A-85D2-F1BF00CBAA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C46108-61BA-434A-85D2-F1BF00CBAA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C46108-61BA-434A-85D2-F1BF00CBAA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA63F6D-9931-4286-BFC3-A12B545602BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA63F6D-9931-4286-BFC3-A12B545602BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA63F6D-9931-4286-BFC3-A12B545602BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA63F6D-9931-4286-BFC3-A12B545602BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA85600-B24B-4632-882C-43027FD8A373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA85600-B24B-4632-882C-43027FD8A373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA85600-B24B-4632-882C-43027FD8A373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA85600-B24B-4632-882C-43027FD8A373}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5306448E-D8B2-432D-8C5E-32BE4BE70619} = {EBDECBEE-F926-40D1-B12A-17B367039E16}
+		{8C6523D2-E21F-48DA-94C5-9A89229356DD} = {5306448E-D8B2-432D-8C5E-32BE4BE70619}
+		{C78206C9-4C8D-49E3-B114-1C4D5F5662B5} = {8DDBF61F-AE45-4EC6-A4A8-E7FB573A027B}
+		{2A39A877-BE7A-4975-A8A4-C072D6219494} = {C78206C9-4C8D-49E3-B114-1C4D5F5662B5}
+		{C24449A6-A37E-4345-A4E5-4582F9B50C0E} = {8DDBF61F-AE45-4EC6-A4A8-E7FB573A027B}
+		{51C46108-61BA-434A-85D2-F1BF00CBAA2D} = {C24449A6-A37E-4345-A4E5-4582F9B50C0E}
+		{894B4CCE-2369-40FD-BEBD-1D92E95CB976} = {8DDBF61F-AE45-4EC6-A4A8-E7FB573A027B}
+		{5FA63F6D-9931-4286-BFC3-A12B545602BF} = {894B4CCE-2369-40FD-BEBD-1D92E95CB976}
+		{8C9D6AD0-3D2B-4F73-9A56-CCB3DFDC90C9} = {8DDBF61F-AE45-4EC6-A4A8-E7FB573A027B}
+		{CDA85600-B24B-4632-882C-43027FD8A373} = {8C9D6AD0-3D2B-4F73-9A56-CCB3DFDC90C9}
+	EndGlobalSection
+EndGlobal

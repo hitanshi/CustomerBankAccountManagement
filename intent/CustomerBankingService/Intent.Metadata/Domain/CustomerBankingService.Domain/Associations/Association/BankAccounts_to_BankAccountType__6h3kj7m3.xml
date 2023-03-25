@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="dca7de5d-e7a8-4a7a-b659-b21214b18d2b">
+  <sourceEnd id="ae31e021-2446-4e54-b0ae-ab280a2c0c56" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>BankAccounts</name>
+    <display>BankAccounts: BankAccount[*]</display>
+    <order>0</order>
+    <typeReference id="92a0f25f-5118-43d5-b286-88e1bae0f410">
+      <typeId>8acbf428-16b5-4865-ab48-c403a5acbe03</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>CustomerBankingService.Domain</typePackageName>
+      <typePackageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="dca7de5d-e7a8-4a7a-b659-b21214b18d2b" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>BankAccountType</name>
+    <display>BankAccountType: BankAccountType</display>
+    <order>5</order>
+    <typeReference id="2661ddf9-eabf-4d64-a4d6-03045fe243d1">
+      <typeId>95b33c33-62c2-466f-9e1b-361a89d79109</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>CustomerBankingService.Domain</typePackageName>
+      <typePackageId>c2d8e671-8ef3-428e-9024-4ca891257fc2</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

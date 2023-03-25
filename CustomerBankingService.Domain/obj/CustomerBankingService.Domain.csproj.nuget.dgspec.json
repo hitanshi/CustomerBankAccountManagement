@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CustomerBankMang\\CustomerBankAccountManagement\\CustomerBankingService.Domain\\CustomerBankingService.Domain.csproj": {}
+  },
+  "projects": {
+    "D:\\CustomerBankMang\\CustomerBankAccountManagement\\CustomerBankingService.Domain\\CustomerBankingService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CustomerBankMang\\CustomerBankAccountManagement\\CustomerBankingService.Domain\\CustomerBankingService.Domain.csproj",
+        "projectName": "CustomerBankingService.Domain",
+        "projectPath": "D:\\CustomerBankMang\\CustomerBankAccountManagement\\CustomerBankingService.Domain\\CustomerBankingService.Domain.csproj",
+        "packagesPath": "C:\\Users\\hkthakur\\.nuget\\packages\\",
+        "outputPath": "D:\\CustomerBankMang\\CustomerBankAccountManagement\\CustomerBankingService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hkthakur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "D:\\Project\\Microservices\\MicroserviceSolution\\LocalPackages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tfs-dev-ignitiongroup.pkgs.visualstudio.com/_packaging/IgnitionFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Intent.RoslynWeaver.Attributes": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
